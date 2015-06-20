@@ -18,8 +18,8 @@
 */
 #ifndef __LOOP_H__
 #define __LOOP_H__
-#define TELEGRAM_CLI_APP_HASH "36722c72256a24c1225de00eb6a1ca74"
-#define TELEGRAM_CLI_APP_ID 2899
+#define TELEGRAM_CLI_APP_HASH "bce1b46830a13b82f4adfce4a7261b8c"
+#define TELEGRAM_CLI_APP_ID 44109
 
 int loop (void);
 void do_halt (int error);
