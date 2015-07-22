@@ -56,3 +56,6 @@ clean:
 distclean:
 	rm -rf ${DIR_LIST} config.h config.log config.status
 
+install:
+	mkdir -p /opt/telegram-cli
+	cp -r spawnkillable.sh server.pub ./bin /opt/telegram-cli
