@@ -53,3 +53,6 @@ ${EXE}/telegram-cli: ${TG_OBJECTS} ${LIB}/libtgl.a
 clean:
 	rm -rf ${DIR_LIST} config.log config.status > /dev/null || echo "all clean"
 
+install:
+	mkdir -p /opt/telegram-cli
+	cp -r spawnkillable.sh server.pub ./bin /opt/telegram-cli
