@@ -1,1 +1,1 @@
-./configure --disable-liblua --disable-python && make
+./configure --disable-liblua && make
